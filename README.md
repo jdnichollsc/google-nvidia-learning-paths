@@ -1,124 +1,99 @@
-# 🕵️‍♂️ Sherlock AI Plugin
+# Google Cloud x NVIDIA Learning Paths
 
-<table>
-  <tr>
-    <td>
-      Paper to Comics
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/proyecto26/MyApp/tree/develop">
-        <img src="https://github.com/user-attachments/assets/c55466c0-8871-4be1-92df-dff3131c508f" width="300">
-      </a>
-    </td>
-  </tr>
-</table>
+> **An open-source learning companion for Google Cloud and NVIDIA technologies**
 
-> **The Ultimate Research & Implementation Assistant for Claude Code & Cursor**
+This repository is a hands-on guide for developers who want to understand and work with AI infrastructure — from running inference on GPUs to optimizing model performance at scale. Each learning path combines explanations, diagrams, and runnable Jupyter notebooks so you can learn by doing.
 
-Sherlock is a curated collection of high-powered AI skills designed to transform your research workflow. It doesn't just read papers—it deduces, visualizes, and reconstructs them into working code.
+Whether you're new to AI deployment or looking to deepen your understanding of GPU-accelerated workloads, this repo gives you a structured starting point with real code and practical examples.
 
-From **deep-diving into literature** to **converting methodology into Python**, Sherlock equips your AI agent with the tools of a master detective and a master engineer.
+## Learning Paths
 
-## 🧰 The Essentials Kit (Features)
+### [Intro to Inference: How to Run AI Models on a GPU](./paths/INFERENCE/)
 
-Sherlock equips your agent with these specialized skills:
+Learn how to set up and run AI inference on GPUs in Google Cloud. This pathway covers:
 
-### 🧩 **1. Paper2Code (The Engineer)**
-*Transforms academic theory into executable reality.*
-- **4-Stage Pipeline**: Systematically converts research papers into code (Algorithm Extraction → Concept Analysis → Planning → Implementation).
-- **No Hallucinations**: Forces a structured intermediate representation (YAML) before writing a single line of code.
-- **Reproducibility First**: Prioritizes accuracy and paper fidelity over "clever" coding.
+- **Training vs. Inference** — Understand the fundamental differences and how the inference pipeline works
+- **Foundations of Inference** — Build a step-by-step inference pipeline: preprocessing, batching, forward pass, decoding, and postprocessing
+- **Model Formats** — Choose the right format (Safetensors, GGUF, TensorRT, ONNX) for your deployment scenario
+- **Performance Metrics** — Measure latency, throughput, TTFT, and learn why percentiles matter more than averages
 
-### 📚 **2. Deep Research (The Detective)**
-*The heavy lifter for comprehensive reports.*
-- **Multi-Pass Drafting**: Spawns parallel sub-agents to draft different sections of a report.
-- **Evidence Tracking**: Maintains strictly cited evidence tables—no claim goes unsourced.
-- **High Fidelity**: Produces professional-grade reports with strict formatting compliance.
+**Notebooks:**
+- [`01_foundations_of_inference.ipynb`](./paths/INFERENCE/01_foundations_of_inference.ipynb) — CPU vs GPU inference, pipeline components, batching fundamentals
+- [`02_performance_metrics.ipynb`](./paths/INFERENCE/02_performance_metrics.ipynb) — Latency, throughput, and finding the knee point
 
-### 🎨 **3. Paper Comic (The Storyteller)**
-*Explains the unexplainable through visual narratives.*
-- **Visual Translation**: Turns dense academic text into educational comics.
-- **Style Adaptive**: Choose from Classic, Tech/Futuristic, Warm, or Chalkboard art styles.
-- **Gemini Powered**: Uses the `genimg-gemini-web` skill for consistent character consistency across panels.
+**Articles:**
+- [Choosing the right format for your AI model](./paths/INFERENCE/INFERENCE_FORMATS_GUIDE.md) — A comprehensive guide to AI inference formats
 
-### 🔬 **4. Paper Analyzer (The Analyst)**
-*X-Ray vision for PDFs.*
-- **MinerU Integration**: High-precision parsing of formulas, tables, and latex from PDFs.
-- **Style Rewrite**: Can rewrite complex papers into "Storytelling", "Academic", or "Concise" formats.
-- **Metadata Extraction**: Automatically pulls title, authors, and citations.
+> More learning paths coming soon — contributions welcome!
 
-### 🖼️ **5. GenImg Gemini Web (The Artist)**
-*The visual engine.*
-- **Image Generation**: Generates images via Google's Gemini Web.
-- **Multi-Modal**: Handles text-to-image and image-to-text tasks.
-- **Session Awareness**: Maintains context across multi-turn conversations for consistent output.
+## AI-Powered Research Tools
 
-### 📐 **6. Visual Architect (The Designer)**
-*Blueprints for understanding.*
-- **Schema Generation**: Transforms methodology sections into structural visual schemas.
-- **Prompt Engineering**: Generates high-precision prompts for DALL-E 3 or Midjourney based on paper logic.
-- **Layout Logic**: Detects if a system is Linear, Cyclic, Hierarchical, or Parallel.
+This repo includes a set of AI skills (powered by [Claude Code](https://claude.com/claude-code)) that help you go deeper into any topic:
 
----
+| Skill | What it does |
+|---|---|
+| **Paper2Code** | Converts research papers into executable Python code through a 4-stage pipeline |
+| **Deep Research** | Generates comprehensive, cited research reports with evidence tracking |
+| **Paper Comic** | Turns dense academic papers into educational visual comics |
+| **Paper Analyzer** | Parses PDFs with high precision (formulas, tables, figures) and rewrites them in different styles |
+| **Visual Architect** | Transforms paper methodology into structural visual schemas |
+| **GenImg Gemini Web** | Image generation backend powered by Google Gemini |
 
-## 🚀 Quick Start
+### Quick Start
 
-### Installation
-
-1.  **Clone the Repository**
+1. **Clone the repository**
     ```bash
-    git clone https://github.com/proyecto26/research-skills.git .claude
+    git clone https://github.com/jdnichollsc/google-nvidia-learning-paths.git
+    cd google-nvidia-learning-paths
     ```
 
-2.  **Configure `.claude/config.json` (Optional but Recommended)**
-    Ensure your skills are registered with your agent runtime (Claude Code / Cursor MCP).
+2. **Explore a learning path**
+    ```bash
+    cd paths/INFERENCE
+    jupyter notebook
+    ```
 
-3.  **Authentication**
-    Some skills (like `genimg-gemini-web` and `paper-analyzer`) require API tokens or login sessions.
-    *   **Gemini**: Run `npx -y bun .claude/skills/genimg-gemini-web/scripts/main.ts --login`
-    *   **MinerU**: Export `MINERU_TOKEN` in your environment.
+3. **Use the AI skills** (optional — requires [Claude Code](https://claude.com/claude-code))
+    ```bash
+    # The skills/ folder is auto-detected by Claude Code
+    # Try: "Implement this paper" or "Generate a research report on LLM inference"
+    ```
 
-### Usage Examples
-
-**"Sherlock, implement this paper for me."**
-> Triggers **Paper2Code** to read the PDF, plan the architecture, and write the Python implementation.
-
-**"Sherlock, explain this complex transformer architecture as a comic."**
-> Triggers **Paper Comic** to create a visual storyboard explaining the concept.
-
-**"Sherlock, I need a deep research report on the state of LLM reasoning."**
-> Triggers **Deep Research** to crawl, analyze, and compile a multi-page cited report.
-
-**"Sherlock, visualize the flow of data in this system."**
-> Triggers **Visual Architect** to design a schematic diagram prompt.
-
----
-
-## 📂 Structure
+## Project Structure
 
 ```
-skills/
-├── deep-research/       # Report generation & evidence tracking
-├── paper2code/          # Paper implementation pipeline
-├── paper-comic/         # Educational comic generator
-├── paper-analyzer/      # PDF parsing & style rewriting
-├── genimg-gemini-web/   # Image generation backend
-└── visual-architect/    # Visual schema design
+paths/
+└── INFERENCE/              # Intro to Inference learning path
+    ├── README.md           # Path overview and notes
+    ├── INFERENCE_FORMATS_GUIDE.md
+    ├── 01_foundations_of_inference.ipynb
+    └── 02_performance_metrics.ipynb
+
+skills/                     # AI-powered research & learning tools
+├── deep-research/
+├── paper2code/
+├── paper-comic/
+├── paper-analyzer/
+├── genimg-gemini-web/
+└── visual-architect/
 ```
 
----
+## Resources
 
-## 🤝 Contribution
+- [Google Cloud x NVIDIA Developer Community](https://developers.google.com/community/nvidia)
+- [Google Cloud AI Inference](https://cloud.google.com/discover/what-is-ai-inference)
+- [NVIDIA TensorRT Documentation](https://docs.nvidia.com/deeplearning/tensorrt/latest/)
+- [Hugging Face Model Hub](https://huggingface.co/models)
 
-Sherlock learns from the community. If you have a new skill module or an improvement to an existing detective tool, please open a PR!
+## Contributing
+
+Contributions are welcome! Whether it's adding notes to an existing path, creating a new learning path, or improving the AI skills — open a PR.
 
 ## Credits
 
-- [Claude Code skills for academic papers](https://github.com/zsyggg/paper-craft-skills)
+- AI research skills based on [Claude Code skills for academic papers](https://github.com/zsyggg/paper-craft-skills)
 
-## Happy coding 💯
-Made with ❤️
+## Happy learning!
+Made with <3
 
 <img width="150px" src="https://avatars0.githubusercontent.com/u/28855608?s=200&v=4" align="right">
