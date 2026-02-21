@@ -2,6 +2,21 @@
 
 > **An open-source learning companion for Google Cloud and NVIDIA technologies**
 
+<table>
+  <tr>
+    <td>
+      Google Cloud x NVIDIA Learning Paths
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="./paths/INFERENCE/comic/INFERENCE.pdf">
+        <img src="./paths/INFERENCE/comic/00-cover.png" width="300">
+      </a>
+    </td>
+  </tr>
+</table>
+
 This repository is a hands-on guide for developers who want to understand and work with AI infrastructure — from running inference on GPUs to optimizing model performance at scale. Each learning path combines explanations, diagrams, and runnable Jupyter notebooks so you can learn by doing.
 
 Whether you're new to AI deployment or looking to deepen your understanding of GPU-accelerated workloads, this repo gives you a structured starting point with real code and practical examples.
