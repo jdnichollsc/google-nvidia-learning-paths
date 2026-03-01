@@ -1,29 +1,28 @@
-# Page 3 - LoopAgent & ParallelAgent: Iterate and Fan Out
+# Page 3 - Agent Transfers in Action
 
 A comic page with 4 panels in tech style (dark backgrounds, circuit patterns, neon accents).
 
 ## Panel 1 (Top-left)
-**Scene**: A circular conveyor loop glows in the center — Researcher-Bot, Writer-Bot, and Critic-Bot are positioned around it. Critic-Bot's traffic light head shows RED (iterate). Arrows show the flow: researcher -> screenwriter -> critic -> back to researcher. A counter in the corner shows "Iteration 2/5". The loop pulses with energy.
-**Narration Box**: "Task 5: LoopAgent — Refine Until Perfect"
-**Speech Bubble (Critic-Bot)**: "The plot needs more historical detail. Loop again!"
-**Caption**: "max_iterations=5 | tools=[exit_loop]"
-**Style**: Circular loop diagram, iteration counter, red/green traffic signals
+**Scene**: CLI terminal showing a conversation. User says "hello", steering agent greets and asks if they have a destination. User says "I could use some help deciding." The response shows [travel_brainstormer] has taken over. A glowing transfer arrow arcs from steering to travel_brainstormer.
+**Narration Box**: "Task 2: Transfers Based on Description"
+**Terminal Text**: "[steering]: Do you have a country in mind?"
+**Terminal Text**: "[user]: I could use some help deciding."
+**Terminal Text**: "[travel_brainstormer]: I can help!"
+**Style**: Terminal with transfer arrow overlay, green text
 
 ## Panel 2 (Top-right)
-**Scene**: Same loop, but now Critic-Bot's traffic light shows GREEN. The critic calls exit_loop and the loop breaks open — a glowing screenplay bursts out of the loop toward the next stage. The screenplay is now richer and more detailed with golden sparkles indicating quality.
-**Speech Bubble (Critic-Bot)**: "Three-act structure achieved. Exit the loop!"
-**Speech Bubble (Dev)**: "It keeps improving until the critic is satisfied!"
-**Style**: Loop breaking open, green light, quality sparkles on output
+**Scene**: ADK-Bot shows how to add explicit transfer instructions to the root_agent's instruction string. The instruction text floats as holographic text: "If they need help deciding, send them to 'travel_brainstormer'." Arrows connect the instruction text to the agent names.
+**Speech Bubble (ADK-Bot)**: "You can also guide transfers explicitly in the instructions — mention sub-agents by name!"
+**Style**: Floating instruction text, connection arrows to agents
 
 ## Panel 3 (Bottom-left)
-**Scene**: Two agents — Box-Office-Bot (wearing a visor with stock-ticker numbers) and Casting-Bot (holding headshot photos of actors) — work simultaneously on separate holographic workstations. A "ParallelAgent" banner connects them. Dual progress bars show both running at the same time. Lightning bolts indicate speed.
-**Narration Box**: "Task 6: ParallelAgent — Fan Out & Gather"
-**Speech Bubble (ADK-Bot)**: "Independent tasks? Run them in parallel for speed!"
-**Caption**: "preproduction_team = ParallelAgent(sub_agents=[box_office_researcher, casting_agent])"
-**Style**: Split parallel workstations, dual progress bars, speed effects
+**Scene**: User says "I would like to go to Japan" and is transferred to attractions_planner, which lists attractions (Tokyo, Kyoto, etc.). Then user says "Actually I don't know" and gets transferred to travel_brainstormer. A bi-directional arrow between the two agents shows peer transfer.
+**Narration Box**: "Peer Transfers"
+**Speech Bubble (Dev)**: "Agents can transfer to siblings too — not just back to the parent!"
+**Style**: Two agents with bi-directional transfer arrow, conversation flow
 
-## Panel 4 (Bottom-right, wide)
-**Scene**: The complete system diagram is shown as a beautiful holographic architecture. The greeter at top flows into the film_concept_team SequentialAgent, which contains the writers_room LoopAgent (with researcher, screenwriter, critic inside a loop), then the preproduction_team ParallelAgent (box_office and casting side-by-side), and finally the file_writer. Dev and ADK-Bot admire the full system like architects viewing a blueprint.
-**Speech Bubble (Dev)**: "Sequential, Loop, Parallel — combined into one powerful system!"
-**Speech Bubble (ADK-Bot)**: "And if you need custom logic, there's CustomAgent too. The possibilities are endless!"
-**Style**: Full architecture diagram, blueprint aesthetic, all workflow types visible, triumphant pose
+## Panel 4 (Bottom-right)
+**Scene**: ADK-Bot shows a toggle switch labeled "disallow_transfer_to_peers". When ON (red), the arrow between peer agents is blocked with an X. When OFF (green, default), transfers flow freely between peers.
+**Code Display**: "disallow_transfer_to_peers=True"
+**Speech Bubble (ADK-Bot)**: "Need more control? Block peer transfers with a single parameter!"
+**Style**: Toggle switch metaphor, blocked vs. open transfer arrows

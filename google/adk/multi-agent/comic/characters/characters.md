@@ -14,16 +14,37 @@
 - Carries a coffee mug that says "CODE"
 - Eyes light up when learning new things
 
-## The Director (Concept Embodiment)
-- A small holographic figure resembling a film director with a beret and megaphone
-- Represents the root_agent / greeter that orchestrates the system
-- Glows with neon purple energy
-- Floats above the agent hierarchy, pointing at sub-agents
+## The Director (Root Agent Persona)
+- A tall figure in a director's chair wearing a beret and holding a megaphone
+- Represents the root_agent / steering agent
+- Commands attention, delegates to the right team member
+- Glows with a golden aura indicating leadership
 
-## The Crew (Sub-Agent Ensemble)
-- A trio of stylized mini-robots, each with distinct roles:
-  - **Researcher-Bot**: Wears tiny reading glasses, carries a glowing Wikipedia orb
-  - **Writer-Bot**: Holds a floating quill pen that trails cyan ink
-  - **Critic-Bot**: Has a magnifying glass eye and a red/green traffic light on its head
-- They pass glowing screenplay pages between each other
-- Connected by flowing neon energy lines showing workflow direction
+## Researcher-Bot
+- A robot with oversized magnifying glasses for eyes
+- Carries stacks of books and a Wikipedia logo badge
+- Always scanning and gathering data
+- Surrounded by floating data orbs and documents
+- Blue color scheme
+
+## Writer-Bot (Screenwriter)
+- A creative robot with a quill pen arm and parchment scroll
+- Wears a beret at a jaunty angle
+- Dramatic gestures when presenting story ideas
+- Green color scheme with ink splatter accents
+
+## Critic-Bot
+- A stern-looking robot with a monocle and red pen
+- Carries a clipboard with checkmarks and X marks
+- Can call exit_loop — shown as a red "EXIT" button on its chest
+- Purple color scheme with sharp angular design
+
+## Travel-Sprite (Brainstormer)
+- A small floating globe surrounded by airplane trails
+- Represents the travel_brainstormer agent
+- Sparkles with destination markers (Eiffel Tower, pyramids, etc.)
+
+## Attractions-Sprite (Planner)
+- A small floating compass rose with a checklist
+- Represents the attractions_planner agent
+- Trails checkmarks when adding items to a list

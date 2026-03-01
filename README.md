@@ -49,6 +49,24 @@
 <a href="google/adk/started/README.md">
     <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/02-page.png" width="300">
 </a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/03-page.png" width="300">
+</a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/04-page.png" width="300">
+</a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/05-page.png" width="300">
+</a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/06-page.png" width="300">
+</a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/07-page.png" width="300">
+</a>
+<a href="google/adk/started/README.md">
+    <img alt="Get Started with Agent Development Kit (ADK)" src="google/adk/started/comic/08-page.png" width="300">
+</a>
 
 ### [Build Multi-Agent Systems with ADK](https://explore.qwiklabs.com/classrooms/19322/labs/108284)
 
@@ -64,7 +82,24 @@
 <a href="google/adk/multi-agent/README.md">
     <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/03-page.png" width="300">
 </a>
-
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/04-page.png" width="300">
+</a>
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/05-page.png" width="300">
+</a>
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/06-page.png" width="300">
+</a>
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/07-page.png" width="300">
+</a>
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/08-page.png" width="300">
+</a>
+<a href="google/adk/multi-agent/README.md">
+    <img alt="Build Multi-Agent Systems with ADK" src="google/adk/multi-agent/comic/09-page.png" width="300">
+</a>
 
 ### [Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK](https://explore.qwiklabs.com/classrooms/19322/labs/108193)
 
@@ -76,4 +111,22 @@
 </a>
 <a href="google/adk/remote/README.md">
     <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/02-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/03-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/04-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/05-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/06-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/07-page.png" width="300">
+</a>
+<a href="google/adk/remote/README.md">
+    <img alt="Connect to Remote Agents with ADK and the Agent2Agent (A2A) SDK" src="google/adk/remote/comic/08-page.png" width="300">
 </a>

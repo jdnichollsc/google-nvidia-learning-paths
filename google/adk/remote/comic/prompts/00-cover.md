@@ -3,7 +3,7 @@
 Generate a tech-style comic book cover page.
 
 ## Scene Description
-A dramatic cover showing two worlds connected by a glowing bridge of light. On the left side, ADK-Bot stands with Dev in a familiar AI lab setting. On the right side, across a vast digital expanse representing the cloud, Art-Agent (an easel-shaped robot with a paintbrush arm, glowing in purple and green) floats in a Cloud Run container represented as a glowing server pod. Between them, a brilliant beam of JSON-RPC data streams flow — carrying messages, tasks, and generated images. A holographic Agent Card (Card-Sprite) floats in the center of the bridge, spinning and projecting the remote agent's capabilities. The A2A protocol symbol glows in the sky above like a constellation connecting the two sides.
+A dramatic cover showing two worlds connected by a luminous bridge of light representing the A2A protocol. On the left side, ADK-Bot and Dev stand in their local development lab with holographic screens. On the right side, Art-Agent (an easel-shaped robot in purple and green) works inside a Cloud Run server rack. Between them, Card-Sprite (a holographic JSON Agent Card) floats in the center, projecting capability descriptions to both sides. Energy beams flow across the A2A bridge carrying messages in both directions. The background shows a dark digital space with network topology patterns and the "A2A" letters glowing prominently.
 
 ## Text Elements
 - Title: "CONNECT TO REMOTE AGENTS" (large, bold, glowing neon cyan)
@@ -11,4 +11,4 @@ A dramatic cover showing two worlds connected by a glowing bridge of light. On t
 - Bottom: "Deploy. Discover. Collaborate." (white)
 
 ## Style
-Tech style: deep blue #1A365D background with a gradient split — left side warmer (lab environment) and right side cooler (cloud environment). Cyan #00D4FF and neon green #00FF88 glowing elements, electric purple #805AD5 accents for the A2A connection bridge. Circuit patterns, futuristic digital aesthetic. High contrast, dramatic lighting emanating from the A2A bridge in the center.
+Tech style: deep blue #1A365D background, cyan #00D4FF and neon green #00FF88 glowing elements, purple #805AD5 accents for the A2A bridge, circuit patterns, futuristic digital aesthetic. High contrast, dramatic lighting with the A2A bridge as focal point.

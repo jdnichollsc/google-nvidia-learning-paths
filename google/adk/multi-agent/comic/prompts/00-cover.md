@@ -3,7 +3,7 @@
 Generate a tech-style comic book cover page.
 
 ## Scene Description
-A dramatic cover showing ADK-Bot (a friendly humanoid robot in Google blue/green/yellow/red colors with "ADK" on its chest, wearing a lab coat with circuit patterns) standing at the center of a swirling vortex of interconnected agent nodes. Around it, three stylized mini-robots — Researcher-Bot (with glasses and a glowing Wikipedia orb), Writer-Bot (with a floating cyan quill pen), and Critic-Bot (with a magnifying glass eye) — orbit in formation, connected by flowing neon energy arcs. Dev (young developer in hoodie, glasses) watches from below, amazed. Behind them, a massive holographic tree diagram shows the hierarchical agent structure branching outward. Floating screenplay pages swirl in the background like a cinematic storm.
+A dramatic cover showing ADK-Bot at the center of a massive holographic organizational chart of interconnected AI agents. Multiple specialized robot agents orbit around ADK-Bot in formation: Researcher-Bot (with magnifying glasses), Writer-Bot (with quill pen), and Critic-Bot (with monocle and red pen). They are connected by flowing energy arcs in cyan, green, and purple. Dev stands below looking up at this magnificent multi-agent constellation. In the background, three workflow patterns are subtly visible: a straight arrow (Sequential), a circular loop (Loop), and branching parallel lines (Parallel). The background is a dark digital space with node-and-edge graph patterns.
 
 ## Text Elements
 - Title: "BUILD MULTI-AGENT SYSTEMS" (large, bold, glowing neon cyan)
@@ -11,4 +11,4 @@ A dramatic cover showing ADK-Bot (a friendly humanoid robot in Google blue/green
 - Bottom: "Orchestrate. Collaborate. Create." (white)
 
 ## Style
-Tech style: deep blue #1A365D background, cyan #00D4FF and neon green #00FF88 glowing elements, electric purple #805AD5 accents, circuit patterns, futuristic digital aesthetic. High contrast, dramatic lighting radiating from the center where the agent connections converge.
+Tech style: deep blue #1A365D background, cyan #00D4FF and neon green #00FF88 glowing elements, circuit patterns, futuristic digital aesthetic. High contrast, dramatic lighting with energy arcs connecting the agents.
